@@ -5,9 +5,9 @@ export const FriendListItem = ({ friend }) => {
 
   return (
     <>
-      <span class="status">{isOnline}</span>
-      <img class="avatar" src={avatar} alt="User avatar" width="48" />
-      <p class="name">{name}</p>
+      <span className="status">{isOnline}</span>
+      <img className="avatar" src={avatar} alt="User avatar" width="48" />
+      <p className="name">{name}</p>
     </>
   );
 };
