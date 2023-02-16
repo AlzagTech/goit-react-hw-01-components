@@ -8,6 +8,7 @@ export const UserCard = styled.div`
 
   border-radius: 4px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 15px;
 `;
 
 export const UserDescription = styled.div`
@@ -50,6 +51,8 @@ export const StatsList = styled.ul`
 
   background-color: #f3f6f9;
   border: 1px solid #e4e9f0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 `;
 
 export const StatsItem = styled.li`
@@ -73,5 +76,5 @@ export const StatsLabel = styled.span`
 
 export const StatsQuantity = styled.span`
   font-weight: bold;
-  color: #1f3349;
+  color: #4c555d;
 `;
