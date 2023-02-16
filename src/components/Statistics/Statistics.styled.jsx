@@ -8,6 +8,9 @@ export const StatisticsSection = styled.section`
   margin-right: auto;
 
   border-radius: 4px;
+  margin-bottom: 15px;
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 `;
 
 export const TitleBox = styled.div`
