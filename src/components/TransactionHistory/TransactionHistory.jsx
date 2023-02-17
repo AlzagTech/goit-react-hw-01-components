@@ -14,9 +14,7 @@ export const TransactionHistory = ({ items }) => {
       </thead>
       <tbody>
         {items.map(item => (
-          <tr key={item.id}>
-            <TransactionHistoryItem item={item} />
-          </tr>
+          <TransactionHistoryItem key={item.id} item={item} />
         ))}
       </tbody>
     </TransactionTable>
