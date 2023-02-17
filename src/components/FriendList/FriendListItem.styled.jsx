@@ -1,5 +1,19 @@
 import styled from '@emotion/styled';
 
+export const FriendItem = styled.li`
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 8px 16px 8px 28px;
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+
+  & + & {
+    margin-top: 8px;
+  }
+`;
+
 export const FriendStatus = styled.span`
   &:before {
     content: '';

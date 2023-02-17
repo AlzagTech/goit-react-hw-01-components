@@ -7,17 +7,3 @@ export const UserFriendList = styled.ul`
 
   margin-bottom: 15px;
 `;
-
-export const UserFriendItem = styled.li`
-  display: flex;
-  position: relative;
-  align-items: center;
-  padding: 8px 16px 8px 28px;
-
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-  background-color: #ffffff;
-
-  & + & {
-    margin-top: 8px;
-  }
-`;
